@@ -151,10 +151,10 @@ float* generateKernel(int diameter, float sigma = 1)
 int main(int argc, char** argv)
 {
 
-	Mat img = cv::imread("C:/Users/josch/FH/PPR/GaussianFilter/background.jpg");
+	Mat img = cv::imread("C:/Users/mailb/Desktop/michael-shannon-p-Z6goDpoMo-unsplash.jpg");
 
-	int radius = 100;
-	float sigma = 20;
+	int radius = 20;
+	float sigma = 1000;
 
 	int width = img.size().width;
 	int height = img.size().height;
